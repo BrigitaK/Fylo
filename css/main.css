@@ -1,0 +1,102 @@
+body{
+    background-color: #1c232f;
+}
+.container{
+    display: inline-block;
+    float: left;
+    width: 1000px;
+    margin: 0 calc(50% - 500px);
+    background-color:blue;
+
+}
+    .header{
+        margin-top: 30px;
+
+    }
+        .logo{
+            display: inline-block;
+            float: left;
+            height: 40px;
+        }
+        .nav{
+            display: inline-block;
+            float: right;
+            padding-top: 10px;
+        }
+            .nav > a{
+                color: #fff;
+                text-decoration: none;
+                line-height: 20px;
+                font-size: 16px;
+                padding: 5px;
+            }
+    .main{
+       display: inline;
+       width: 700px;
+       margin-left: calc(50% - 350px);
+        text-align: center;
+        background-color: green;
+    }
+        .photo{
+            width:100%;
+        }
+        .title{
+            margin-top: 30px;
+            color: #fff;
+        }
+        .main > .par{
+            width: 480px;
+            margin-left: calc(50% - 240px);
+            margin-top: 30px;
+            color: #fff;
+            font-size: 18px;
+        }
+        .btn{
+            margin-top: 30px;
+            background-color: #5baece;
+            width: 200px;
+            margin-left: calc(50% - 100px);
+            padding: 10px 0;
+            border-radius: 20px;
+            margin-bottom: 100px;
+        }
+            .btn > a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+    .row{
+        display: inline-block;
+        background: red;
+        width:1000px;
+    }
+        .el{
+            display: inline-block;
+            width: 40%;
+            margin:0  20px;
+        }
+            .img{
+                height: 60px;
+                text-align: center;
+                margin-bottom: 20px;
+                
+            }
+            .title1{
+                width: 90%;
+                color: #fff;
+                font-size: 18px;
+                line-height: 20px;
+                margin-bottom: 5px;
+            }
+            .title2{
+
+                width: 90%;
+                color: #fff;
+                font-size: 13px;
+                line-height: 15px;
+                margin-bottom: 20px;
+            }
+
+    
