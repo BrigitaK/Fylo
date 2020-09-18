@@ -181,8 +181,9 @@ body{
           
         .footer-texts{
             color: #fff;
-            background-color: red;
             margin: 0 150px;
+            margin-bottom: 200px;
+            background-color: red;
         }
             .footer-texts > h1{
                 font-size: 30px;
@@ -192,7 +193,28 @@ body{
                 font-size: 15px;
                 padding-bottom: 15px;
             }
-            .footer-texts .button{
-                display: inline-block;
-                float: left;
+           .footer-texts .btn1{
+               display: inline-block;
+               margin-bottom: 50px;
+               font-size: 15px;
+               line-height: 15px;
+            }
+            .footer-texts .input{
+                
+               display: inline-block;
+                background-color: #fff;
+                padding: 5px 90px;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 15px;
+                border: 1px solid transparent;
+                margin-right: 10px;
+            }
+            .footer-texts  .button{
+               display: inline-block;
+               padding: 5px 15px;
+               text-transform: capitalize;
+                background-color: #6bc2d4;
+                border-radius: 15px;
+
             }
