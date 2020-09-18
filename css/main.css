@@ -6,7 +6,7 @@ body{
     float: left;
     width: 1000px;
     margin: 0 calc(50% - 500px);
-    background-color:blue;
+
 
 }
     .header{
@@ -31,25 +31,29 @@ body{
                 padding: 5px;
             }
     .main{
-       display: inline;
-       width: 700px;
-       margin-left: calc(50% - 350px);
+       display: inline-block;
         text-align: center;
-        background-color: green;
+    }
+    .first{
+        display: inline-block;
+        width:1000px;
     }
         .photo{
-            width:100%;
+            width:70%;
         }
         .title{
+            width: 85%;
+            margin: auto;
             margin-top: 30px;
             color: #fff;
+            font-size: 40px;
+            padding-bottom: 40px;
         }
-        .main > .par{
-            width: 480px;
-            margin-left: calc(50% - 240px);
-            margin-top: 30px;
+        .par{
+            width: 65%;
+            margin: auto;
             color: #fff;
-            font-size: 18px;
+            font-size: 24px;
         }
         .btn{
             margin-top: 30px;
@@ -69,28 +73,28 @@ body{
 
     .row{
         display: inline-block;
-        background: red;
         width:1000px;
+        margin: 0 calc(50% - 500px);
     }
         .el{
             display: inline-block;
             width: 40%;
             margin:0  20px;
         }
-            .img{
+           .row .img{
                 height: 60px;
                 text-align: center;
                 margin-bottom: 20px;
                 
             }
-            .title1{
+            .row .title1{
                 width: 90%;
                 color: #fff;
                 font-size: 18px;
                 line-height: 20px;
                 margin-bottom: 5px;
             }
-            .title2{
+            .row .title2{
 
                 width: 90%;
                 color: #fff;
@@ -99,4 +103,27 @@ body{
                 margin-bottom: 20px;
             }
 
+        .last{
+            display: inline-block;
+            width:1000px;
+            margin: 0 calc(50% - 500px);
+            margin-top: 70px;
+
+        }
+            .img1{
+                display: inline-block;
+                float: left;
+                width: 50%;
+
+            }
+            .par2{
+                display: inline-block;
+                float: left;
+                padding-top: 100px;
+                padding-left: 40px;
+                width: 50%;
+                color: #fff;
+            }
+            .par2 > h2{
+            }
     
