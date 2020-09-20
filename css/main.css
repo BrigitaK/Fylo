@@ -142,12 +142,13 @@ body{
                 border-bottom: 2px solid #59898b;
                 padding-bottom: 5px;
             }
-            .dot{
+            .par2 .dot{
                 display: inline-block;
                 border-radius: 50%;
                 height: 25px;
                 width: 25px;
                 color: #59898b;
+                position: relative;
             
             }
 
